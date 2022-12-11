@@ -35,3 +35,9 @@ npx thirdweb@latest create contract --use-npm
 ```
 npm run deploy
 ```
+
+## FrontEnd
+
+```
+npx thirdweb create --app
+```
