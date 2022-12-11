@@ -41,3 +41,15 @@ npm run deploy
 ```
 npx thirdweb create --app
 ```
+
+Install Tailwind css for vite
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+Create the Tailwind config file
+
+```
+npx tailwindcss init -p
+```
