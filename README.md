@@ -29,3 +29,9 @@ npx thirdweb@latest create contract --use-npm
 
 -   [goerlifaucet.com](https://goerlifaucet.com/)
 -   [Test Endpoint](https://www.ankr.com/rpc/eth/eth_goerli/)
+
+-   To Deploy
+
+```
+npm run deploy
+```
