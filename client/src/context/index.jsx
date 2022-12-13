@@ -33,14 +33,14 @@ export const StateContextProvider = ({ children }) => {
 			]);
 			console.log("contract call success", data);
 		} catch (error) {
-			console.log("contract call failure");
+			console.log("contract call failure", error);
 		}
 	};
 
 	const getCampaigns = async () => {
 		const campaigns = await contract.call("getCampaigns");
 
-		const parsedCampaigns = campaigns.map((campaign) => ({
+		const parsedCampaigns = campaigns.map((campaign, i) => ({
 			owner: campaign.owner,
 			title: campaign.title,
 			description: campaign.description,
